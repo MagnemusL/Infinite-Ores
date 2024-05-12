@@ -1,0 +1,29 @@
+[10maj2024 19:57:26.772] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\magne_z4t3ur6\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, infiniteores, --all, --output, D:\Minecraft\Modding\Projects\Infinite Ores\src\generated\resources, --existing, D:\Minecraft\Modding\Projects\Infinite Ores\src\main\resources]
+[10maj2024 19:57:26.778] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[10maj2024 19:57:26.954] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[10maj2024 19:57:27.031] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/magne_z4t3ur6/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[10maj2024 19:57:27.465] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\magne_z4t3ur6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.32\9d7e04e58b558bf95759e2d94b77944a0845d1cb\javafmllanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[10maj2024 19:57:27.468] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\magne_z4t3ur6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.32\38d24291ba53d0eebaa2830618f331bc728d4b90\lowcodelanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[10maj2024 19:57:27.473] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\magne_z4t3ur6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.32\63a076b8fcbb860cfddb7cec5c1374338a5043da\mclanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[10maj2024 19:57:27.479] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\magne_z4t3ur6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.32\cb79ea145f390bce56ce90e2cc62eb6928911801\fmlcore-1.20.1-47.2.32.jar is missing mods.toml file
+[10maj2024 19:57:27.654] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[10maj2024 19:57:29.435] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10maj2024 19:57:29.439] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\magne_z4t3ur6\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, infiniteores, --all, --output, D:\Minecraft\Modding\Projects\Infinite Ores\src\generated\resources, --existing, D:\Minecraft\Modding\Projects\Infinite Ores\src\main\resources]
+[10maj2024 19:57:30.009] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [infiniteores]
+[10maj2024 19:57:36.293] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.32, for MC 1.20.1 with MCP 20230612.114412
+[10maj2024 19:57:36.295] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.32 Initialized
+[10maj2024 19:57:36.479] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[10maj2024 19:57:37.189] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/magne_z4t3ur6/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.32_mapped_official_1.20.1/forge-1.20.1-47.2.32_mapped_official_1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[10maj2024 19:57:37.190] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/magne_z4t3ur6/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.32_mapped_official_1.20.1/forge-1.20.1-47.2.32_mapped_official_1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[10maj2024 19:57:37.416] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[10maj2024 19:57:37.420] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 3 ms
+[10maj2024 19:57:37.420] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[10maj2024 19:57:37.479] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 58 ms
+[10maj2024 19:57:37.480] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[10maj2024 19:57:37.660] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 179 ms
+[10maj2024 19:57:37.660] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: infiniteores
+[10maj2024 19:57:37.660] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: infiniteores finished after 0 ms
+[10maj2024 19:57:37.660] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: infiniteores
+[10maj2024 19:57:37.660] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: infiniteores finished after 0 ms
+[10maj2024 19:57:37.660] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 244 ms
+[10maj2024 19:57:37.669] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 1, old count: 0, new count: 2, removed stale: 0, written: 1
