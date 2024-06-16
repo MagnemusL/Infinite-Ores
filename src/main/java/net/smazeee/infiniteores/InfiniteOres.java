@@ -2,6 +2,7 @@ package net.smazeee.infiniteores;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
@@ -28,14 +29,16 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.smazeee.infiniteores.miners.ModBlockEntities;
+import net.smazeee.infiniteores.miners.hand.HandDrillRenderer;
 import net.smazeee.infiniteores.registry.ModBlocks;
 import net.smazeee.infiniteores.registry.ModItems;
 import org.slf4j.Logger;
+import software.bernie.example.registry.BlockEntityRegistry;
 
 @Mod(InfiniteOres.MODID)
 public class InfiniteOres {
     public static final String MODID = "infiniteores";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public InfiniteOres() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -59,6 +62,7 @@ public class InfiniteOres {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            BlockEntityRenderers.register(ModBlockEntities.HAND_DRILL_BE.get(), HandDrillRenderer::new);
         }
     }
 }
